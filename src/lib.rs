@@ -1,5 +1,5 @@
-mod map;
-mod set;
+pub mod map;
+pub mod set;
 
 pub use self::{map::OrdMap, set::OrdSet};
 
